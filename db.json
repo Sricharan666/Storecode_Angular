@@ -1,0 +1,68 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "Name": "ajay",
+      "storeName": "Vasista Stores",
+      "email": "ajay@gmail.com",
+      "mobile": "9876543453",
+      "password": "sri66"
+    },
+    {
+      "id": 2,
+      "Name": "ram",
+      "storeName": "Swamy Stores",
+      "email": "Swamy@gmial.com",
+      "mobile": "8767656765",
+      "password": "swamy23"
+    },
+    {
+      "id": 3,
+      "Name": "jay",
+      "storeName": "Jay Store",
+      "email": "Jaydev@gmail.com",
+      "mobile": "7654565445",
+      "password": "dev65"
+    },
+    {
+      "id": 4,
+      "Name": "sricharan",
+      "storeName": "bhavani stores",
+      "email": "sri@gmail.com",
+      "mobile": "9876545676",
+      "password": "sri66"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Men's Casual Shirt",
+      "productImage": "https://5.imimg.com/data5/WZ/DC/TE/SELLER-12383379/trendy-casual-shirt.jpg",
+      "productPrice": 29.99,
+      "productDetail": "A comfortable and stylish casual shirt for men.",
+      "website": "https://www.amazon.in/",
+      "productCode": "MSHRT001"
+    },
+    {
+      "id": 2,
+      "productName": "Women's Denim Jeans",
+      "productImage": "https://rukminim1.flixcart.com/image/850/1000/kpu3frk0/jean/j/r/p/28-aw21mwjn008-metronaut-original-imag3zkpmxkyk7st.jpeg?q=90",
+      "productPrice": 39.99,
+      "productDetail": "Classic denim jeans for women, perfect for any occasion.",
+      "website": "https://www.flipkart.com/",
+      "productCode": "WJEAN002"
+    },
+    {
+      "id": 3,
+      "productName": "Unisex Sneakers",
+      "productImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS2FW7rUv6BFtvzcgSoOz8q3biyXRaVjpzfxgeeVS3ii0PWolFMsJgvW2Qr1Di7tUEcm8KdEq_HxuZIHGU8fVn26d4pA0XBuNgCMkd1J33mTx-bVM7Ln1Ky&usqp=CAE",
+      "productPrice": 49.99,
+      "productDetail": "Versatile and comfortable sneakers for men and women.",
+      "website": "https://www.amazon.in/",
+      "productCode": "SNEAK003"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

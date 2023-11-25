@@ -1,0 +1,34 @@
+<div class="signup">
+<div class="form1">
+
+<form [formGroup]="Formvalue" >
+    <label  class="signup-txt">Register</label>
+
+      <div class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" formControlName="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Store Name</label>
+        <input type="text" formControlName="storename" class="form-control" id="exampleInputPassword1">
+      </div>
+
+      <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Mobile Number</label>
+          <input type="text" formControlName="mobile" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Email ID</label>
+          <input type="email" formControlName="email" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">password</label>
+          <input type="password" formControlName="password" class="form-control" id="exampleInputPassword1">
+      </div>
+
+      <button type="submit" (click)="postEmployeeDetails()" class="btn btn-primary">SIGNUP</button>
+      <p class="change">Already a member?</p><p class="change1"><a (click)="submit1()">login</a></p>
+      
+     </form>
+</div>
+</div>

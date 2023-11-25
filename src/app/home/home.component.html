@@ -1,0 +1,25 @@
+<div class="product-container">
+  <form [formGroup]="searchForm" (ngSubmit)="getProductByStoreCode()" class="product-form">
+    <label for="storeCode">Shop with StoreCode:</label>
+    <input type="text" formControlName="storeCode" id="storeCode" required>
+    <button type="submit">Search</button>
+  </form>
+</div>
+<br>
+<div class="middle">
+<div *ngIf="selectedProduct" class="product-details">
+  <h2>{{ selectedProduct.productName }}</h2>
+  <img [src]="selectedProduct.productImage" alt="{{ selectedProduct.productName }} Image">
+  <p>{{ selectedProduct.productDetail }}</p>
+  <p>Price: {{ selectedProduct.productPrice | currency:'USD':'symbol':'1.2-2' }}</p>
+  <p>Product Code: {{ selectedProduct.productCode }}</p>
+  <a [href]="selectedProduct.website">webiste link</a>
+</div>
+</div>
+
+<i>
+  <h5 class="result">{{result}}</h5>
+</i>
+<div>
+  <img src="../assets/shopping.png" class="home-img" alt="">
+</div>

@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-lg navbar-light" id="myNavbar">
+    <img src="https://storecode.in/images/logo-nav.png" alt="" class="logo">
+    <a class="navbar-brand">STORECODE</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" (click)="myFunc()"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item" id="seperate">
+                <a class="nav-link" routerLink="/home" id="change-color">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  id="change-color" routerLink="/login">LOGIN</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="change-color" routerLink="/signup">REGISTER</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/contact" id="change-color">CONTACT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink='/about' id="change-color">ABOUT</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<router-outlet></router-outlet>
+<footer class="footer">
+    <div class="footer-content">
+        <p>© 2023 All Rights Reserved By StoreCode</p>
+        <p><a href="#">Privacy Policy</a></p>
+        <div class="icons">
+            <i class="fab fa-facebook-f fb" title="Facebook"></i>
+            <i class="fab fa-instagram insta" title="Instagram"></i>
+            <i class="fa-brands fa-linkedin-in in" title="LinkedIn"></i>
+        </div>
+    </div>
+</footer>
+
+
+
+
